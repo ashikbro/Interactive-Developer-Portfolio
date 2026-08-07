@@ -1,0 +1,28 @@
+{
+  "name": "interactive-developer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm install",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.4",
+    "vite": "^7.1.1",
+    "@types/node": "^22.10.2"
+  }
+}

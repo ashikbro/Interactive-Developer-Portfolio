@@ -1,0 +1,54 @@
+.layout {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: #e5e7eb;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.cta {
+  border: 0;
+  border-radius: 999px;
+  background: #22d3ee;
+  color: #0f172a;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+}
+
+.feature-pills,
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-pills li,
+.tags li {
+  background: #1f2937;
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.card a {
+  color: #67e8f9;
+}
