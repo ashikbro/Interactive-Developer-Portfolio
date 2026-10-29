@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive developer portfolio and project case studies.">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/">Ashikbro<span aria-hidden="true">.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="mailto:hello@example.com">Contact</a>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Software engineer · builder · researcher</p>
+        <h1 id="hero-title">Thoughtful software for complex problems.</h1>
+        <p class="hero-copy">Explore selected projects, technical decisions, and the lessons behind each build.</p>
+        <a class="button" href="#projects">View projects</a>
+      </section>
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Projects with a point of view</h2>
+        </div>
+        <div id="project-grid" class="project-grid"></div>
+      </section>
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Build clearly. Validate honestly.</h2>
+        <p>This portfolio favors working prototypes, transparent limitations, and measurable improvements over inflated feature lists.</p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Ashikbro</span>
+      <a href="mailto:hello@example.com">Get in touch</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
